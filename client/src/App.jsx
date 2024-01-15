@@ -1,10 +1,15 @@
 import './App.css'
+import Header from './components/Header'
+import Post from './components/Post'
 
 function App() {
   return (
-    <div className="block bg-red-200 pl-3 text-bold text-2xl text-white">
-      Hello World
-    </div>
+    <main className='mx-auto w-[75%]'>
+      <Header />
+      <Post />
+      <Post />
+      <Post />
+    </main>
   )
 }
 
