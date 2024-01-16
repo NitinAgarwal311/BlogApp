@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .input-login {
+        @apply px-3 py-2 border rounded-md;
+    }
+    
+    .button-login {
+        @apply px-3 py-2 border text-white bg-gray-500 rounded-md;
+    }
+}

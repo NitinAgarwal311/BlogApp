@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom";
+
 function Header() {
     return (
         <header className="flex justify-between items-center py-7">
-            <a href="" className="text-xl font-bold">
+            <Link to="/" className="text-xl font-bold">
                 MyBlog
-            </a>
+            </Link>
             <nav className="flex gap-5">
-                <a href="" className="text-xl">
+                <Link to="/login" className="text-xl">
                     Login
-                </a>
-                <a href="" className="text-xl">
+                </Link>
+                <Link to="/register" className="text-xl">
                     Register
-                </a>
+                </Link>
             </nav>
         </header>
     );
